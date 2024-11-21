@@ -25,7 +25,7 @@ int main() {
     double average = sum / n;
     printf("Mean = %lf\n", average);
 
-    // Mode
+    // Mode (definitely overcomplicated but it works :D)
     double frequency[n];
     for (int i = 0; i < n; i++) {
         frequency[i] = 0;
