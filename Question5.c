@@ -5,7 +5,7 @@ int main() {
     double input, lastInput = 0;
     double arr[n];
 
-    printf("Enter %d asceding order numbers between 1 and 100\n", n);
+    printf("Enter %d ascending order numbers between 1 and 100\n", n);
     for (int i = 0; i < n; i++) {
         scanf("%lf", &input);
         if ((input < 1 || input > 100) || input < lastInput) {
